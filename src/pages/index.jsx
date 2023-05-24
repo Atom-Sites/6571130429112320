@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <>
             <Header />
-        
+            <Nav />
             <Hero />
             <USP />
             <Services />
