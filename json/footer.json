@@ -1,21 +1,22 @@
 {
-    "logoImage": "https://media.nicejob.co/company_logos/162-expert-window-cleaning@2x.png",
-    "logoImageAlt": "Expert Window Cleaning, Inc. Logo",
-    "address" : "Not provided",
-    "phone" : "+13039606705",
-    "email" : "asharperview@gmail.com",
+    "logoImage": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    "logoImageAlt": "Google Logo",
+    "address" : "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+    "phone" : "(650) 253-0000",
+    "email" : "test@example.com",
     "socials": [
-        {"name": "Google", "href": "https://maps.google.com/maps?cid=1266397763599345558"},
-        {"name": "Facebook", "href": "https://www.facebook.com/610242585671933/reviews"},
-        {"name": "Google", "href": "https://maps.google.com/maps?cid=11863389633432546954"},
-        {"name": "Facebook", "href": "https://www.facebook.com/helpingCOshine/"}
+        {"name": "Facebook", "href": "#"},
+        {"name": "Twitter", "href": "#"},
+        {"name": "Instagram", "href": "#"}
     ],
     "services": [
-        {"name": "Power Pressure Washing", "href": "#services"},
-        {"name": "Window Cleaning", "href": "#services"}
+        {"name": "service 1", "href": "#"},
+        {"name": "service 2", "href": "#"},
+        {"name": "service 3", "href": "#"}
     ],
-    "review_href": "#reviews",
-    "services_href": "#services",
-    "contact_href": "#contact",
-    "anchor": "footer"
+    "review_href": "#",
+    "services_href": "#",
+    "contact_href": "#",
+    "anchor": "contact"
 }
+

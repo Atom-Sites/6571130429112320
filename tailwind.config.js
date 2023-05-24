@@ -22,17 +22,11 @@ module.exports = {
     },
     colors: {
       primary: {
-50: '#FFFFFF',
-100: '#FFFFFF',
-200: '#FFFFFF',
-300: '#FFFFFF',
-400: '#FFFFFF',
-500: '#FFFFFF',
-600: '#CCCCCC',
-700: '#999999',
-800: '#666666',
-900: '#333333',
-950: '#1A1A1A'},
+        50: '#fffbf7',
+        400: '#eeae4d',
+        600: '#70470b',
+        700: '#9a630e'
+      },
       ...colors
     },
     extend: {
