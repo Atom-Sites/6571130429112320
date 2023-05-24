@@ -1,90 +1,47 @@
 {
-  "services": [
-    {
-      "serviceBlurb": "service1",
-      "serviceSlug": "header",
-      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
-      "imageAlt": "image Alt Text",
-      "features": [
+    "services": [
         {
-          "name": "service 1 feature 1 name",
-          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+            "serviceBlurb": "Power Pressure Washing",
+            "serviceSlug": "Revitalize your surfaces with our power pressure washing service.",
+            "serviceText": "Our power pressure washing service is designed to remove dirt, grime, and stains from a variety of surfaces. Our experienced team uses high-quality equipment and eco-friendly cleaning solutions to ensure a thorough and safe cleaning process. Whether it's your driveway, patio, or building exterior, our power pressure washing service will leave your surfaces looking fresh and new.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/162/31de5e2b-c49a-4351-87cb-ac6286fd77ec.jpg",
+            "imageAlt": "Power Pressure Washing",
+            "features": [
+                {
+                    "name": "Eco-Friendly Cleaning Solutions",
+                    "description": "We use environmentally friendly cleaning solutions to ensure the safety of your property and the environment."
+                },
+                {
+                    "name": "High-Quality Equipment",
+                    "description": "Our team uses professional-grade equipment to deliver the best results for your surfaces."
+                },
+                {
+                    "name": "Experienced Team",
+                    "description": "Our skilled technicians have years of experience in power pressure washing, ensuring a thorough and efficient cleaning process."
+                }
+            ]
         },
         {
-          "name": "service 1 feature 2 name",
-          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-        },
-        {
-          "name": "service 1 feature 3 name",
-          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+            "serviceBlurb": "Window Cleaning",
+            "serviceSlug": "Let the sunshine in with our expert window cleaning service.",
+            "serviceText": "Our window cleaning service is designed to provide a streak-free, crystal-clear view for your home or business. Our experienced team uses professional equipment and eco-friendly cleaning solutions to ensure a thorough and safe cleaning process. From residential to commercial properties, our window cleaning service will leave your windows sparkling clean and free of dirt, smudges, and streaks.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/162/img_1289.jpg",
+            "imageAlt": "Window Cleaning",
+            "features": [
+                {
+                    "name": "Streak-Free Results",
+                    "description": "Our window cleaning techniques ensure a streak-free, crystal-clear view for your windows."
+                },
+                {
+                    "name": "Eco-Friendly Cleaning Solutions",
+                    "description": "We use environmentally friendly cleaning solutions to ensure the safety of your property and the environment."
+                },
+                {
+                    "name": "Experienced Team",
+                    "description": "Our skilled technicians have years of experience in window cleaning, ensuring a thorough and efficient cleaning process."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "serviceBlurb": "service2",
-      "serviceSlug": "header",
-      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
-      "imageAlt": "image Alt Text",
-      "features": [
-        {
-          "name": "service 2 feature 1 name",
-          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-
-        },
-        {
-          "name": "service 2 feature 2 name",
-          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-        },
-        {
-          "name": "service 2 feature 3 name",
-          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
-        }
-      ]
-    },
-    {
-      "serviceBlurb": "service3",
-      "serviceSlug": "header",
-      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
-      "imageAlt": "image Alt Text",
-      "features": [
-        {
-          "name": "service 3 feature 1 name",
-          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-        },
-        {
-          "name": "service 3 feature 2 name",
-          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-        },
-        {
-          "name": "service 3 feature 3 name",
-          "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
-        }
-      ]
-    },
-    {
-      "serviceBlurb": "service4",
-      "serviceSlug": "header",
-      "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "imageUrl": "https://tailwindui.com/img/component-images/project-app-screenshot.png",
-      "imageAlt": "image Alt Text",
-      "features": [
-        {
-          "name": "service 4 feature 1 name",
-          "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-        },
-        {
-          "name": "service 4 feature 2 name",
-          "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-        },
-        {
-          "name": "service 4 feature 3 name",
-          "description": "ac tincidunt sapien vehicula erat auctor pellentes"
-        }
-      ]
-    }
-  ],
-  "anchor": "services"
+    ],
+    "anchor": "services"
 }

@@ -1,9 +1,7 @@
 {
-    "title": "Award Winning Support",
-    "callToAction": "We are here to help you with any questions you may have.",
-    "image": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply",
-    "buttonText": "Visit the help center",
-    "anchor": "our-work"
-}    
-
-
+    "title": "Get Your Windows Sparkling Clean",
+    "callToAction": "Experience the difference of expert window cleaning and pressure washing services. Contact us today!",
+    "image": "https://nicework-members.s3.amazonaws.com/photos/162/31de5e2b-c49a-4351-87cb-ac6286fd77ec.jpg",
+    "buttonText": "Request a Quote",
+    "anchor": "Don't change provided anchor"
+}

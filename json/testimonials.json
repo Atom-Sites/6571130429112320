@@ -1,16 +1,55 @@
 {
     "headerText": "Testimonials",
-    "headerSubText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
+    "headerSubText": "Read what our satisfied customers have to say about Expert Window Cleaning, Inc.",
     "testimonials": [
         {
-            "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+            "body": "Will did an amazing job! On time and very professional. I highly recommend him!",
             "author": {
-                "name": "Leslie Alexander",
-                "source": "google",
+                "name": "Tracy Evans",
+                "source": "Google",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Expert Window Cleaning always do an amazing job! Very satisfied - Thank you!",
+            "author": {
+                "name": "Sarina Brant",
+                "source": "NiceJob",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Will is on time, efficient, polite and does a great job.  He's been coming to our home for the last 5 years.",
+            "author": {
+                "name": "Lolabeth Uhlenhop",
+                "source": "Facebook",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "I will continue to recommend you to people as we are very pleased with your work!!!!",
+            "author": {
+                "name": "Marti S",
+                "source": "NiceJob",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Will did a great job.  I would definitely recommend Expert Window Cleaning.",
+            "author": {
+                "name": "Barbara Secord",
+                "source": "Facebook",
+                "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
+            }
+        },
+        {
+            "body": "Will is great to work with. We will use him again.",
+            "author": {
+                "name": "Monte Crabbs",
+                "source": "Google",
                 "icon": "https://cdn-teams-slug.flaticon.com/google.jpg"
             }
         }
     ],
-    "anchor": "reviews"
+    "anchor": "testimonials"
 }
-

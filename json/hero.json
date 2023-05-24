@@ -1,7 +1,7 @@
 {
-    "headingText": "Heading text",
-    "descriptionText": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
-    "heroImageUrl": "https://cdn.nicejob.co/uploads/production/6432430954381312/1683731947560_5825359704752128_188.png",
-    "heroImageAlt": "",
-    "anchor": "hero"
-} 
+    "headingText": "Expert Window Cleaning, Inc.",
+    "descriptionText": "Welcome to Expert Window Cleaning, Inc., your one-stop solution for all your window cleaning and pressure washing needs. Our team of professionals is dedicated to providing top-notch services to help your property shine.",
+    "heroImageUrl": "https://nicework-members.s3.amazonaws.com/photos/162/img_1272.jpg",
+    "heroImageAlt": "Expert Window Cleaning, Inc. Hero Image",
+    "anchor": "home"
+}

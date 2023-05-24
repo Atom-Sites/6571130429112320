@@ -1,21 +1,21 @@
 {
-    "headerText": "Header Text",
-    "uspDescription": "Description, about 4 or 5 sentences",
+    "headerText": "Why Choose Expert Window Cleaning, Inc.?",
+    "uspDescription": "Expert Window Cleaning, Inc. is a professional window cleaning and pressure washing service provider. With years of experience, our team is dedicated to delivering exceptional results for both residential and commercial clients. We use state-of-the-art equipment and techniques to ensure the highest quality of service.",
     "features": [
         {
-        "name": "feature1",
-        "description": "feature1 description, about 4 or 5 sentences",
-        "href" : "#"
+            "name": "Professional Window Cleaning",
+            "description": "Our skilled team provides top-notch window cleaning services, ensuring a streak-free and crystal-clear finish. We cater to both residential and commercial properties, enhancing the appearance and value of your space.",
+            "href": "#"
         },
         {
-        "name": "feature2",
-        "description": "feature2 description, about 4 or 5 sentences",
-        "href" : "#"
+            "name": "Power Pressure Washing",
+            "description": "Expert Window Cleaning, Inc. offers power pressure washing services to remove dirt, grime, and stains from various surfaces. Our high-pressure cleaning techniques effectively restore the original look of your property, improving its curb appeal.",
+            "href": "#"
         },
         {
-        "name": "feature3",
-        "description": "feature3 description, about 4 or 5 sentences",
-        "href" : "#"
+            "name": "Outstanding Customer Service",
+            "description": "We pride ourselves on delivering exceptional customer service, ensuring that our clients are satisfied with the results. Our team is punctual, professional, and attentive to your needs, making us the go-to choice for window cleaning and pressure washing services.",
+            "href": "#"
         }
     ]
 }
