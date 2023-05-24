@@ -1,0 +1,21 @@
+{
+    "logoImage": "https://media.nicejob.co/company_logos/162-expert-window-cleaning@2x.png",
+    "logoImageAlt": "Expert Window Cleaning, Inc. Logo",
+    "address" : "Not provided",
+    "phone" : "+13039606705",
+    "email" : "asharperview@gmail.com",
+    "socials": [
+        {"name": "Google", "href": "https://maps.google.com/maps?cid=1266397763599345558"},
+        {"name": "Facebook", "href": "https://www.facebook.com/610242585671933/reviews"},
+        {"name": "Google", "href": "https://maps.google.com/maps?cid=11863389633432546954"},
+        {"name": "Facebook", "href": "https://www.facebook.com/helpingCOshine/"}
+    ],
+    "services": [
+        {"name": "Power Pressure Washing", "href": "#services"},
+        {"name": "Window Cleaning", "href": "#services"}
+    ],
+    "review_href": "#reviews",
+    "services_href": "#services",
+    "contact_href": "#contact",
+    "anchor": "footer"
+}

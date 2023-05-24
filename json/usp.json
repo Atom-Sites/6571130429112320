@@ -1,0 +1,21 @@
+{
+    "headerText": "Why Choose Expert Window Cleaning, Inc.?",
+    "uspDescription": "Expert Window Cleaning, Inc. is a professional window cleaning and pressure washing service provider. We are dedicated to providing top-notch services to our clients, ensuring their satisfaction. Our team of skilled professionals is committed to delivering exceptional results, making your home or business shine.",
+    "features": [
+        {
+            "name": "Professional Window Cleaning",
+            "description": "Our expert team provides high-quality window cleaning services, ensuring a streak-free finish. We use advanced techniques and equipment to clean your windows, leaving them spotless and crystal clear.",
+            "href": "http://helpingcoloradoshine.com"
+        },
+        {
+            "name": "Power Pressure Washing",
+            "description": "We offer power pressure washing services to remove dirt, grime, and stains from various surfaces. Our powerful equipment and skilled technicians ensure a thorough cleaning, improving the appearance and longevity of your property.",
+            "href": "http://helpingcoloradoshine.com"
+        },
+        {
+            "name": "Exceptional Customer Service",
+            "description": "At Expert Window Cleaning, Inc., we prioritize customer satisfaction. Our team is always on time, efficient, and polite, ensuring a pleasant experience for our clients. We are here to address any questions or concerns you may have.",
+            "href": "http://helpingcoloradoshine.com"
+        }
+    ]
+}

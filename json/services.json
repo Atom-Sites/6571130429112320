@@ -1,0 +1,47 @@
+{
+    "services": [
+        {
+            "serviceBlurb": "Power Pressure Washing",
+            "serviceSlug": "Revitalize your property with our power pressure washing service.",
+            "serviceText": "Our power pressure washing service is designed to remove dirt, grime, and stains from various surfaces, including driveways, sidewalks, and building exteriors. Our team of professionals uses high-quality equipment and eco-friendly cleaning solutions to ensure a thorough and safe cleaning process.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/162/img-0421.jpg",
+            "imageAlt": "Power pressure washing",
+            "features": [
+                {
+                    "name": "Eco-friendly cleaning solutions",
+                    "description": "We use environmentally friendly cleaning solutions that are safe for your property and the environment."
+                },
+                {
+                    "name": "High-quality equipment",
+                    "description": "Our team uses professional-grade equipment to ensure efficient and effective cleaning."
+                },
+                {
+                    "name": "Experienced professionals",
+                    "description": "Our skilled technicians are trained to handle various surfaces and cleaning challenges."
+                }
+            ]
+        },
+        {
+            "serviceBlurb": "Window Cleaning",
+            "serviceSlug": "Let the sunshine in with our expert window cleaning service.",
+            "serviceText": "Our window cleaning service is designed to provide a streak-free shine for your residential or commercial property. Our team of experts uses specialized equipment and techniques to clean windows safely and efficiently, ensuring a clear view and improved curb appeal.",
+            "imageUrl": "https://nicework-members.s3.amazonaws.com/photos/162/img_1289.jpg",
+            "imageAlt": "Window cleaning",
+            "features": [
+                {
+                    "name": "Streak-free shine",
+                    "description": "We use advanced techniques to ensure a streak-free shine on your windows."
+                },
+                {
+                    "name": "Safety first",
+                    "description": "Our team follows strict safety protocols to protect your property and our technicians."
+                },
+                {
+                    "name": "Customized solutions",
+                    "description": "We tailor our window cleaning services to meet the unique needs of your property."
+                }
+            ]
+        }
+    ],
+    "anchor": "services"
+}
