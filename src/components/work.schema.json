@@ -1,0 +1,29 @@
+{
+  "title": {
+    "value": "Expert Window Cleaning, Inc. Work",
+    "ai": true,
+    "instructions": "Title of the page."
+  },
+  "pageTitle": {
+    "value": "Home Window Cleaning | Expert Window Cleaning, Inc.",
+    "ai": true,
+    "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
+    "example": "Window Cleaning in Boston | <Company Name>"
+  },
+  "pageName": {
+    "value": "Expert Window Cleaning, Inc.",
+    "ai": true,
+    "instructions": "Company Name"
+  },
+  "imageUrl": {
+    "value": "https://image.shutterstock.com/image-photo/people-housework-housekeeping-concept-happy-450w-252454888.jpg",
+    "ai": true,
+    "instructions": "A href to the hero image for the page"
+  },
+  "description": {
+    "value": "Looking for expert window cleaning services in the Aurora, CO area? Our experienced team at Expert Window Cleaning, Inc. is committed to customer satisfaction. Book an appointment today!",
+    "ai": true,
+    "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
+    "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"
+  }
+}

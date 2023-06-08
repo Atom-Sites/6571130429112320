@@ -1,0 +1,26 @@
+{
+  "title": {
+    "value": "Experience Crystal Clear Windows with Expert Window Cleaning",
+    "ai": true,
+    "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice."
+  },
+  "callToAction": {
+    "value": "Transform your home or business with our professional window cleaning services, ensuring a spotless and streak-free finish.",
+    "ai": true,
+    "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing very short paragraph to promote the services. Do not use the same keyword twice."
+  },
+  "image": {
+    "value": "https://image.shutterstock.com/image-photo/team-workers-cleaning-white-office-450w-1049209820.jpg",
+    "ai": true,
+    "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+  },
+  "buttonText": {
+    "value": "Book Your Cleaning Today",
+    "ai": true,
+    "instructions": "A short call to action that will be displayed on the button."
+  },
+  "anchor": {
+    "value": "our-work",
+    "ai": false
+  }
+}

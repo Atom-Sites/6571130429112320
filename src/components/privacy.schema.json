@@ -1,0 +1,29 @@
+{
+  "title": {
+    "value": "Privacy Policy",
+    "ai": true,
+    "instructions": "Title of the page."
+  },
+  "pageTitle": {
+    "value": "Window Cleaning in Aurora, CO | Expert Window Cleaning, Inc.",
+    "ai": true,
+    "instructions": "Write <service> | <Company Name>. Use the example as a basis.",
+    "example": "Window Cleaning in Boston | <Company Name>"
+  },
+  "pageName": {
+    "value": "Expert Window Cleaning, Inc.",
+    "ai": true,
+    "instructions": "Company Name"
+  },
+  "imageUrl": {
+    "value": "https://image.shutterstock.com/image-photo/internet-security-personal-data-theft-450w-2160496255.jpg",
+    "ai": true,
+    "instructions": "A href to the hero image for the page"
+  },
+  "description": {
+    "value": "Learn about Expert Window Cleaning, Inc.'s privacy policy. We value your privacy and ensure the protection of your personal information. Read our policy now.",
+    "ai": true,
+    "instructions": "Write a very short SEO-oriented meta description with max 160 characters.",
+    "example": "Are you looking for ... services in the ... area? With our experienced team committed to customer satisfaction, you can trust that ... will get the job done right. Book an appointment today!"
+  }
+}

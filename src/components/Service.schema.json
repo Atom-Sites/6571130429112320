@@ -1,0 +1,119 @@
+{
+  "services": {
+    "value": [
+      {
+        "serviceBlurb": "Home Window Cleaning",
+        "serviceSlug": "Experience crystal-clear views with our expert home window cleaning",
+        "serviceText": "Our professional team at Expert Window Cleaning, Inc. is dedicated to providing top-notch home window cleaning services. We use the latest high-quality equipment and techniques to ensure your windows are spotless and streak-free. Experience the difference of a clear view and enhance the beauty of your home with our expert services.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/professional-cleaners-yellow-gloves-cleaning-450w-1014872062.jpg",
+        "imageAlt": "Home window cleaning service",
+        "features": [
+          {
+            "name": "Purified Water Cleaning Technology",
+            "description": "We use purified water cleaning technology to ensure a spotless and residue-free finish on your windows."
+          },
+          {
+            "name": "High-Quality Soaps",
+            "description": "Our specially designed soaps for window cleaning leave no film behind, ensuring a crystal-clear view."
+          },
+          {
+            "name": "Professional Tools",
+            "description": "Our team uses professional-grade tools that cannot be found at home improvement stores, ensuring the best results for your windows."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Commercial Window Cleaning",
+        "serviceSlug": "Boost your business's curb appeal with our commercial window cleaning",
+        "serviceText": "Expert Window Cleaning, Inc. offers exceptional commercial window cleaning services to businesses in the area. Our team of professionals is committed to providing a clean and polished appearance for your business, helping you make a great first impression on your customers. Trust us to deliver outstanding results that will enhance your business's curb appeal.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/windows-cleaning-glass-without-smudges-450w-123204070.jpg",
+        "imageAlt": "Commercial window cleaning service",
+        "features": [
+          {
+            "name": "Flexible Scheduling",
+            "description": "We offer flexible scheduling options to minimize disruption to your business operations during the cleaning process."
+          },
+          {
+            "name": "Safety First",
+            "description": "Our team follows strict safety guidelines and uses proper equipment to ensure the safety of our employees and your property."
+          },
+          {
+            "name": "Customized Solutions",
+            "description": "We tailor our commercial window cleaning services to meet the unique needs of your business, ensuring the best results."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Gutter Cleaning",
+        "serviceSlug": "Protect your property with our thorough gutter cleaning services",
+        "serviceText": "Clogged gutters can lead to water damage and other costly issues for your property. Expert Window Cleaning, Inc. offers comprehensive gutter cleaning services to ensure your gutters are free of debris and functioning properly. Our team will thoroughly clean and inspect your gutters, helping you protect your property from potential damage.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/man-cleaning-gutter-autumn-leaves-450w-162672428.jpg",
+        "imageAlt": "Gutter cleaning service",
+        "features": [
+          {
+            "name": "Debris Removal",
+            "description": "Our team will remove leaves, twigs, and other debris from your gutters, ensuring proper water flow and preventing clogs."
+          },
+          {
+            "name": "Gutter Inspection",
+            "description": "We will inspect your gutters for any signs of damage or wear, helping you address potential issues before they become costly problems."
+          },
+          {
+            "name": "Preventative Maintenance",
+            "description": "Regular gutter cleaning is essential for maintaining the health of your property and preventing water damage."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Chandelier Cleaning",
+        "serviceSlug": "Illuminate your space with our expert chandelier cleaning services",
+        "serviceText": "A clean and sparkling chandelier can make a stunning statement in your home or business. Expert Window Cleaning, Inc. offers professional chandelier cleaning services to restore the brilliance of your chandelier and enhance the beauty of your space. Trust our team to handle your delicate chandelier with care and expertise.",
+        "imageUrl": "https://image.shutterstock.com/image-photo/vintage-mansion-beige-lounge-retro-450w-146582972.jpg",
+        "imageAlt": "Chandelier cleaning service",
+        "features": [
+          {
+            "name": "Delicate Handling",
+            "description": "Our team is trained to handle delicate chandeliers with care, ensuring the safety of your valuable fixture."
+          },
+          {
+            "name": "Thorough Cleaning",
+            "description": "We meticulously clean each crystal and component of your chandelier, restoring its original sparkle and shine."
+          },
+          {
+            "name": "Expert Techniques",
+            "description": "Our team uses specialized techniques and equipment to ensure the best results for your chandelier cleaning."
+          }
+        ]
+      }
+    ],
+    "ai": true,
+    "instructions": "Write up to four services in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
+    "example": [
+      {
+        "serviceBlurb": "Name of the service",
+        "serviceSlug": "Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice.\n Example to follow:\n Sparkle up your property!\n Refresh your view with our experts!\n Experience financial freedom with our accounting services!",
+        "serviceText": "Write an attention-grabbing paragraph to promote the services. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
+        "imageUrl": "A url to an image that represents the service a 1:1 aspect ratio",
+        "imageAlt": "Alt text for the image. can be left blank",
+        "features": [
+          {
+            "name": "A 1st specific feature of the service",
+            "description": "A 1 paragraph description of the service"
+          },
+          {
+            "name": "A 2nd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          },
+          {
+            "name": "A 3rd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          }
+        ]
+      }
+    ]
+  },
+  "anchor": {
+    "value": "services",
+    "ai": false
+  }
+}

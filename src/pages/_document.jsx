@@ -22,6 +22,9 @@ export default function Document(props) {
                 />
                 <script type="text/javascript" src="https://storage.googleapis.com/editor-sdk/editor.js"></script>
 
+                <script type="text/javascript" src="/static/test.js"></script>
+
+                <meta name="format-detection" content="telephone=no"></meta>
             </Head>
             <body x-data="{'openDialogId': ''}" className="font-body antialiased text-[#41454c] bg-[#FFFFFF] dark:text-[#b3c3d9] dark:bg-[#0e0e0e]">
                 <Main />

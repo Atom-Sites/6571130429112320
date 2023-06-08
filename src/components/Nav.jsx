@@ -1,56 +1,217 @@
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Fragment, useState } from 'react'
+import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import {
+    ArrowPathIcon,
+    Bars3Icon,
+    ChartPieIcon,
+    CursorArrowRaysIcon,
+    FingerPrintIcon,
+    SquaresPlusIcon,
+    XMarkIcon,
+} from '@heroicons/react/24/outline'
+import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import useSWR from 'swr'
+import extractValues from '@/utils/extractValues'
+import makeId from '@/utils/makeId'
+import Link from 'next/link'
+
+
+function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+}
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
+
 export default function Example() {
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    const { data, error } = useSWR('/api/staticdata?filename=nav', fetcher)
 
-    if (error) return <div>failed to load</div>
-    if (!data) return <div>loading...</div>
+    const { data: nav_data, error: nav_error } = useSWR('/api/staticdata?filename=Nav.schema.json', fetcher)
+    const { data: service_data, error: service_error } = useSWR('/api/staticdata?filename=Service.schema.json', fetcher)
+    const { data: company_data, error: company_error } = useSWR('/api/staticdata?filename=company_id.json', fetcher);
 
-    const { logoUrl, navLinks } = data
+    if (nav_error || service_error || company_error) return <div>failed to load</div>
+    if (!nav_data || !service_data || !company_data) return <div></div>
 
+    const { logoUrl, navLinks } = extractValues(nav_data)
+    const services = service_data.services.value
+
+    console.log(services);
     return (
-        <Disclosure as="nav" className="editable-component relative bg-primary-400 shadow" id='home' data-json='nav'>
-            {({ open }) => (
-                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                    <div className="flex h-16 justify-between">
-                        <div className="flex">
-                            <div className="flex flex-shrink-0 items-center">
-                                <img className="block w-auto h-9 lg:hidden" alt="No alt" src={logoUrl} />
-                                <img className="hidden w-auto h-14 lg:block" alt="No alt" src={logoUrl} />
+        <header className="bg-white sticky top-0 z-10 py-1 shadow">
+            <nav className="mx-auto flex max-w-screen-2xl items-center justify-between lg:px-8" aria-label="Global">
+
+                {/*This is the logo on mobile*/}
+                <div className="flex lg:hidden">
+                    <a href="/" className=" p-1.5">
+                        <span className="sr-only">Your Company</span>
+                        <img className="h-12 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
+                    </a>
+                </div>
+
+                {/*This is the logo on desktop*/}
+                <div className="hidden lg:flex ">
+                    <a href="/" className=" p-1.5">
+                        <span className="sr-only">Your Company</span>
+                        <img className="h-20 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
+                    </a>
+                </div>
+
+                {/*CTAs Mobile only*/}
+                <div className="flex lg:hidden">
+
+                    {/* Regular CTA*/}
+                    <div className="flex items-center">
+                        <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">Get Quote</a>
+                    </div>
+
+                    <div className="flex items-center ml-2">
+                        <a href={`tel: ${company_data.phone}`} className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent font-bold text-base py-3.5 px-3 rounded-2xl bg-neutral-800 hover:bg-neutral-700  transition-all ease-in" aria-label="Button with hidden text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                            <path fillrule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" cliprule="evenodd" />
+                        </svg>
+                        </a>
+                    </div>
+                    <button
+                        type="button"
+                        className=" inline-flex p-5 items-center justify-center rounded-md p-2.5 text-neutral-700"
+                        onClick={() => setMobileMenuOpen(true)}
+                    >
+                        <span className="sr-only">Open main menu</span>
+                        <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                    </button>
+                </div>
+
+
+
+                {/*This is the menu on a larger screen*/}
+                <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <Popover.Group className="hidden lg:flex justify-end lg:gap-x-8 j py-5 mr-4">
+                        <Popover className="relative">
+                            <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700">
+                                Our Services
+                                < ChevronDownIcon className="hidden h-5 w-5 flex-none text-neutral-400" aria-hidden="true" />
+                            </Popover.Button>
+
+                            <Transition
+                                as={Fragment}
+                                enter="transition ease-out duration-200"
+                                enterFrom="opacity-0 translate-y-1"
+                                enterTo="opacity-100 translate-y-0"
+                                leave="transition ease-in duration-150"
+                                leaveFrom="opacity-100 translate-y-0"
+                                leaveTo="opacity-0 translate-y-1"
+                            >
+
+                                {/*This is the dropdown menu on a larger screen*/}
+                                <Popover.Panel className="absolute -left-8 top-full z-10 mt-12 w-64  max-w- overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-neutral-200">
+                                    <div className="p-2">
+                                        {services.map((item, i) => (
+                                            <div key={item.serviceBlurb} className="group relative flex items-center gap-x-6 rounded-lg p-3 text-sm leading-6 hover:bg-neutral-100">
+
+                                                {/*Dropdown icons hidden for now*/}
+                                                {/* <div className="hidden flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-primary-100 group-hover:bg-white">
+                                <item.icon className="h-6 w-6 text-neutral-600 group-hover:text-primary-600" aria-hidden="true" />
+                            </div> */}
+                                                {/*Dropdown Items*/}
+                                                <div className="flex-auto">
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`} className="block font-semibold text-neutral-900 ">
+                                                        {item.serviceBlurb}
+                                                        <span className="absolute inset-0" />
+                                                    </Link>
+                                                </div >
+                                            </div >
+                                        ))
+                                        }
+                                    </div >
+                                </Popover.Panel >
+                            </Transition >
+                        </Popover >
+
+                        <a href="/reviews" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700">
+                            Reviews
+                        </a>
+                        <a href="/work" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700 mr-6">
+                            Our Work
+                        </a>
+
+                    </Popover.Group >
+                    {/*CTAs on a larger screen*/}
+                    {/* Regular CTA*/}
+                    <div className="flex items-center">
+                        <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3.5 px-4" href="#">Get Quote</a>
+                    </div>
+                    <div className="flex items-center ml-2.5">
+                        <a href={`tel: ${company_data.phone}`} className="font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:outline-transparent text-base py-4 px-4 rounded-2xl bg-neutral-800 hover:bg-neutral-700 transition-all ease-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                                <path fillrule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" cliprule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div >
+            </nav >
+
+
+            <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+                <div className="fixed inset-0 z-10" />
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-neutral-900/10">
+                    <div className="flex items-center justify-end">
+                        <button
+                            type="button"
+                            className="-m-2.5 rounded-md p-2.5 text-neutral-700"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            <span className="sr-only">Close menu</span>
+                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                        </button>
+                    </div>
+
+                    <div className="mt-6 flow-root">
+                        <div className="-my-6 divide-y divide-neutral-500/10">
+                            <div className="space-y-2 py-6">
+                                <Disclosure as="div" className="-mx-3">
+                                    {({ open }) => (
+                                        <>
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in">
+                                                Our Services
+                                                <ChevronDownIcon
+                                                    className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                                                    aria-hidden="true"
+                                                />
+                                            </Disclosure.Button>
+                                            <Disclosure.Panel className="mt-2 space-y-2">
+                                                {services.map((item) => (
+                                                    <Link href={`/#${makeId(item.serviceBlurb)}`}>
+                                                        <Disclosure.Button
+                                                            key={item.serviceBlurb}
+                                                            as="a"
+                                                            href={`/#${makeId(item.serviceBlurb)}`}
+                                                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-neutral-900 hover:bg-neutral-50"
+                                                        >
+                                                            {item.serviceBlurb}
+                                                        </Disclosure.Button>
+                                                    </Link>
+                                                ))}
+                                            </Disclosure.Panel>
+                                        </>
+                                    )}
+                                </Disclosure>
+                                <a
+                                    href="/reviews"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in"
+                                >
+                                    Reviews
+                                </a>
+                                <a
+                                    href="/work"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in"
+                                >
+                                    Our Work
+                                </a>
                             </div>
-                            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                                {navLinks.map((link) => (
-                                    <a className="inline-flex items-center border-transparent px-1 pt-1 text-sm hover:border-gray-300 hover:text-gray-700 text-gray-900 font-bold" href={link.href}>{link.name}</a>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="hidden sm:ml-6 sm:items-center md:flex">
-                            <button id="cuxpyc" className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-lg hover:bg-primary-600 rounded-2xl bg-primary-700 hover:bg-primary-600 font-bold px-4 py-3 nj-lead sm:">Free Quote</button>
-                            <div className="relative ml-3">
-                                <div className=""></div>
-                            </div>
-                        </div>
-                        <div className="-mr-2 flex items-center sm:hidden">
-                            <button id="xwnngr" className="inline-flex items-center justify-center rounded-md p-2 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 text-black">
-                                <span className="sr-only">Open main menu</span>
-                                <span className="block h-6 w-6">
-                                    <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-                                    </svg>
-                                </span>
-                                <span className="hidden h-6 w-6">
-                                    <svg className="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-                                    </svg>
-                                </span>
-                            </button>
                         </div>
                     </div>
-                </div>
-            )}
-        </Disclosure>
+                </Dialog.Panel>
+            </Dialog>
+        </header >
     )
 }

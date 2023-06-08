@@ -13,7 +13,7 @@ module.exports = {
       xl: ['1.25rem', { lineHeight: '2rem' }],
       '2xl': ['1.5rem', { lineHeight: '2rem' }],
       '3xl': ['2rem', { lineHeight: '2.5rem' }],
-      '4xl': ['2.5rem', { lineHeight: '3.5rem' }],
+      '4xl': ['2.5rem', { lineHeight: '3rem' }],
       '5xl': ['3rem', { lineHeight: '3.5rem' }],
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1.1' }],
@@ -22,17 +22,17 @@ module.exports = {
     },
     colors: {
       primary: {
-50: '#E0F7FF',
-100: '#C7F0FF',
-200: '#8FE1FF',
-300: '#52D1FF',
-400: '#1AC2FF',
-500: '#00A3E0',
-600: '#0083B3',
-700: '#006185',
-800: '#00435C',
-900: '#00222E',
-950: '#000F14'},
+50: '#FFFFFF',
+100: '#FFFFFF',
+200: '#FFFFFF',
+300: '#FFFFFF',
+400: '#FFFFFF',
+500: '#FFFFFF',
+600: '#CCCCCC',
+700: '#999999',
+800: '#666666',
+900: '#333333',
+950: '#1A1A1A'},
       ...colors
     },
     extend: {
@@ -46,7 +46,15 @@ module.exports = {
       maxWidth: {
         '2xl': '40rem',
       },
+      transitionProperty: {
+        'max-height': 'max-height',
+      },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
-}
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('tailwindcss-animated'),
+]
+
+  }
