@@ -45,7 +45,7 @@ function ServiceLeft(props) {
                             <div className="mt-10 flex items-center justify-left">
                                 <div className="flex items-center">
                                     <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">
-                                        Get my free estimate!
+                                        Get my free quote!
                                     </a>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ function ServiceRight(props) {
     const { serviceBlurb, serviceSlug, serviceText, imageUrl, imageAlt, features } = props;
 
     return (
-        <div id={makeId(serviceBlurb)} className="overflow-hidden py-24 bg-primary-100 sm:py-32">
+        <div id={makeId(serviceBlurb)} className="overflow-hidden py-24 bg-neutral-100 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
                     {/* Image */}
@@ -85,7 +85,7 @@ function ServiceRight(props) {
                             <div className="mt-10 flex items-center justify-left">
                                 <div className="flex items-center">
                                     <a className="nj-lead font-heading text-white shadow-sm focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent font-bold rounded-2xl bg-primary-700 hover:bg-primary-600 transition-all ease-in text-base py-3 px-4" href="#">
-                                        Get my free estimate!
+                                        Get my free quote!
                                     </a>
                                 </div>
                             </div>

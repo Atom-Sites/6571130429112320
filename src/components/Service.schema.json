@@ -3,10 +3,10 @@
     "value": [
       {
         "serviceBlurb": "Home Window Cleaning",
-        "serviceSlug": "Experience crystal-clear views with our expert home window cleaning",
-        "serviceText": "Our professional team at Expert Window Cleaning, Inc. is dedicated to providing top-notch home window cleaning services. We use the latest high-quality equipment and techniques to ensure your windows are spotless and streak-free. Experience the difference of a clear view and enhance the beauty of your home with our expert services.",
-        "imageUrl": "https://image.shutterstock.com/image-photo/professional-cleaners-yellow-gloves-cleaning-450w-1014872062.jpg",
-        "imageAlt": "Home window cleaning service",
+        "serviceSlug": "Transform your space with pristine windows!",
+        "serviceText": "Are you tired of staring through dirty, grimy windows? Imagine stepping into a space flooded with natural light, where every view is crystal clear and unobstructed. With our exceptional home window cleaning services, you can experience the joy of pristine windows that enhance the beauty of your home. Say goodbye to smudges, fingerprints, and streaks, and say hello to a brighter, more inviting atmosphere.",
+        "imageUrl": "/images/window-cleaner.webp",
+        "imageAlt": "Professional residential window cleaning for a reasonable price.",
         "features": [
           {
             "name": "Purified Water Cleaning Technology",
@@ -24,10 +24,10 @@
       },
       {
         "serviceBlurb": "Commercial Window Cleaning",
-        "serviceSlug": "Boost your business's curb appeal with our commercial window cleaning",
-        "serviceText": "Expert Window Cleaning, Inc. offers exceptional commercial window cleaning services to businesses in the area. Our team of professionals is committed to providing a clean and polished appearance for your business, helping you make a great first impression on your customers. Trust us to deliver outstanding results that will enhance your business's curb appeal.",
-        "imageUrl": "https://image.shutterstock.com/image-photo/windows-cleaning-glass-without-smudges-450w-123204070.jpg",
-        "imageAlt": "Commercial window cleaning service",
+        "serviceSlug": "Boost your business's curb appeal with commercial window cleaning.",
+        "serviceText": "Make a powerful first impression with a business that shines from the inside out. Our exceptional commercial window cleaning services are designed to boost your business's curb appeal and leave a lasting impact on your customers. Don't let dirty windows hold you back, elevate your business to new heights with our commercial window cleaning services today.",
+        "imageUrl": "/images/commercial-window-cleaning.webp",
+        "imageAlt": "Commercial window cleaner fully insured, servicing the entire metro Area.",
         "features": [
           {
             "name": "Flexible Scheduling",
@@ -45,10 +45,10 @@
       },
       {
         "serviceBlurb": "Gutter Cleaning",
-        "serviceSlug": "Protect your property with our thorough gutter cleaning services",
-        "serviceText": "Clogged gutters can lead to water damage and other costly issues for your property. Expert Window Cleaning, Inc. offers comprehensive gutter cleaning services to ensure your gutters are free of debris and functioning properly. Our team will thoroughly clean and inspect your gutters, helping you protect your property from potential damage.",
-        "imageUrl": "https://image.shutterstock.com/image-photo/man-cleaning-gutter-autumn-leaves-450w-162672428.jpg",
-        "imageAlt": "Gutter cleaning service",
+        "serviceSlug": "Protect your property with our thorough gutter cleaning services.",
+        "serviceText": "Clogged gutters can lead to water damage and other costly issues for your property. We offer comprehensive gutter cleaning services to ensure your gutters are free of debris and functioning properly. Our team will thoroughly clean and inspect your gutters, helping you protect your property from potential damage.",
+        "imageUrl": "/images/gutter-cleaning.webp",
+        "imageAlt": "Dirt removal on gutters in Denver, CO",
         "features": [
           {
             "name": "Debris Removal",
@@ -66,9 +66,9 @@
       },
       {
         "serviceBlurb": "Chandelier Cleaning",
-        "serviceSlug": "Illuminate your space with our expert chandelier cleaning services",
-        "serviceText": "A clean and sparkling chandelier can make a stunning statement in your home or business. Expert Window Cleaning, Inc. offers professional chandelier cleaning services to restore the brilliance of your chandelier and enhance the beauty of your space. Trust our team to handle your delicate chandelier with care and expertise.",
-        "imageUrl": "https://image.shutterstock.com/image-photo/vintage-mansion-beige-lounge-retro-450w-146582972.jpg",
+        "serviceSlug": "Illuminate your space with our expert chandelier cleaning services.",
+        "serviceText": "A clean, sparkling chandelier can make a stunning statement in your home or business. We can help restore your chandelier's brilliance and enhance your space's beauty. Trust our team to handle your delicate chandelier with care and expertise.",
+        "imageUrl": " /images/chandelier-cleaning.webp",
         "imageAlt": "Chandelier cleaning service",
         "features": [
           {

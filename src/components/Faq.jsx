@@ -1,14 +1,45 @@
 import React from 'react';
 import { Disclosure, Transition } from '@headlessui/react';
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline';
+import extractValues from '@/utils/extractValues'
+import useSWR from 'swr'
 
 const faqs = [
   {
-    question: "How does it work?",
-    answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    question: "How far out are you scheduling?",
+    answer: "Typically, we can schedule within a week. During our peak months of May-November, calling two to three weeks in advance is best.",
   },
-  // More questions...
+  {
+    question: "How do I prepare for my windows to be cleaned?",
+    answer: "Moving items away from your windows, especially knick-knacks, would be helpful. While this is not required, it is greatly appreciated as it saves time and protects your valuables. Additional charges may apply if excessive furniture moving or knick-knack removal is required.",
+  },
+  {
+    question: "Do I have to be home when you clean my windows?",
+    answer: "No. While we enjoy it when our clients are at home, it's unnecessary. Arrangements should be made before your window cleaning to ensure we have access to the inside of your home and for payment.",
+  },
+  {
+    question: "It's raining; should I reschedule?",
+    answer: "We leave this up to our client's discretion. Your appointment will be rescheduled for the next available day, which may be two to three weeks during peak months.",
+  },
+  {
+    question: "What makes windows look so dirty after it rains?",
+    answer: "It's the dirt that was already on your windows. No dirt is left behind after cleaning your window, so the rain evaporates off your glass. We still work in light rain.",
+  },
+  {
+    question: "What weather conditions do you not work in?",
+    answer: "We do not work in prolonged heavy rain or thunderstorms and won't perform second-story work during high wind advisories or warnings and temperatures below 32 degrees.",
+  },
+  {
+    question: "What type of payments do you accept?",
+    answer: "We accept cash, check, and credit cards.",
+  },
+  {
+    question: "What if I need to cancel or reschedule my appointment?",
+    answer: "If you need to cancel or reschedule your appointment, we require notice by 12:00 PM the day before your appointment; otherwise, a cancellation fee may be charged.",
+  },
+
 ];
+
 
 export default function Example() {
   return (

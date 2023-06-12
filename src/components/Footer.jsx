@@ -97,9 +97,12 @@ export default function Example() {
                                     <li className="">
                                         <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/work">Our Work</a>
                                     </li>
-                                    {/* <li className="">
-                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={contact_href}>About Us</a>
-                                    </li> */}
+                                    <li className="">
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/about">About Us</a>
+                                    </li>
+                                    <li className="">
+                                        <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="/faqs">FAQ</a>
+                                    </li>
                                 </ul>
                             </div>
                             {/*Footer menu Get in Touch*/}
@@ -114,7 +117,7 @@ export default function Example() {
                                         <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href={`tel:${phone}`}>{formatPhoneNumber(phone)}</a>
                                         </li>
                                         <li className="">
-                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="#">{address}</a>
+                                            <a className="text-sm leading-6 text-neutral-300 hover:text-white transition-all ease-in" href="https://www.google.com/maps?cid=11863389633432546954">{address}</a>
                                         </li>
                                     </ul>
                                 </div>

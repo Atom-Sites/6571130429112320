@@ -1,65 +1,25 @@
 {
   "headerSnippet": {
-    "value": "Expert Window Cleaning always do an amazing job! Very satisfied - Thank you!",
+    "value": "Great experience!",
     "ai": true,
     "instructions": "Take a small snippet from the review."
   },
   "review": {
     "value": [
       {
-        "body": "Will did an amazing job! On time and very professional. I highly recommend him!",
+        "body": "Great experience! Received quotes from several places and this was the most reasonable and was able to come out the soonest. Will did a fantastic job and we will be calling him again next time we need our windows cleaned.",
         "author": {
-          "name": "Tracy Evans",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Expert Window Cleaning always do an amazing job! Very satisfied - Thank you!",
-        "author": {
-          "name": "Sarina Brant",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will is on time, efficient, polite and does a great job.  He's been coming to our home for the last 5 years.",
-        "author": {
-          "name": "Lolabeth Uhlenhop",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "I will continue to recommend you to people as we are very pleased with your work!!!!",
-        "author": {
-          "name": "Marti S",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will did a great job.  I would definitely recommend Expert Window Cleaning.",
-        "author": {
-          "name": "Barbara Secord",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will is great to work with. We will use him again.",
-        "author": {
-          "name": "Monte Crabbs",
+          "name": "Beau Solano",
           "source": "Google",
           "icon": "/images/google-badge.svg"
         }
       }
     ],
     "ai": true,
-    "instructions": "Use available information to create 2-6 testimonials in the testimonials array. Use the provided icon for all authors",
+    "instructions": "Use available information to create 1 testimonial in the testimonials array. Use the provided icon for all authors",
     "example": [
       {
-        "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
+        "body": "The body for the testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
         "author": {
           "name": "Name of the first person",
           "source": "Source of the review. For example, Google, Facebook, etc.",

@@ -1,0 +1,29 @@
+{
+
+    "faq": {
+      "value": [
+        {
+          "faq": {
+            "question": "Tracy Evans",
+            "awnser": "Google"
+
+          }
+        }
+
+      ],
+      "ai": true,
+      "instructions": "List the 5 to 10 of the most common questions asked on the web about our services and our company.",
+      "example": [
+        {
+          "faq": {
+            "question": "Write the question.",
+            "awnser": "Write the awnser."
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "value": "faq",
+      "ai": false
+    }
+  }

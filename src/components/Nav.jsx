@@ -130,8 +130,15 @@ export default function Example() {
                         <a href="/reviews" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700">
                             Reviews
                         </a>
-                        <a href="/work" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700 mr-6">
+                        <a href="/work" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700">
                             Our Work
+                        </a>
+
+                        <a href="/about" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700">
+                            About Us
+                        </a>
+                        <a href="/faqs" className="text-sm font-semibold leading-6 text-neutral-900 focus-visible:outline focus-visible:outline-0 focus-visible:outline-offset-2 focus-visible:transparent hover:text-primary-700 current:text-primary-700 mr-6">
+                            FAQ
                         </a>
 
                     </Popover.Group >
@@ -206,6 +213,18 @@ export default function Example() {
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in"
                                 >
                                     Our Work
+                                </a>
+                                <a
+                                    href="/about"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in"
+                                >
+                                    About Us
+                                </a>
+                                <a
+                                    href="/faqs"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-neutral-900 hover:bg-neutral-50 transition-all ease-in"
+                                >
+                                    FAQ
                                 </a>
                             </div>
                         </div>

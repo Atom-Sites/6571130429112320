@@ -1,6 +1,6 @@
 {
   "footerText": {
-    "value": "Expert Window Cleaning, Inc. is dedicated to providing top-notch window cleaning services in Aurora, CO, and surrounding areas. We use the latest high-quality equipment and techniques to ensure a spotless finish. Our commitment to outstanding work and great customer service has earned us numerous referrals.",
+    "value": "We gladly service Aurora, Arvada, Castle Pines, Castle Rock, Centennial, Cherry Hills Village, Denver, Englewood, Evergreen, Foxfield, Franktown, Genesee, Golden, Greenwood Village, Heritage Hills, Highlands, Highlands Ranch, Lakewood, Littleton, Lone Tree, Morrison, Parker, Sedalia, Stapleton, The Pinery, and Wheat Ridge.",
     "ai": true,
     "instructions": "Text for the footer. Extrapolate from the example",
     "example": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
@@ -11,7 +11,7 @@
     "instructions": "Company Address"
   },
   "phone": {
-    "value": "+13035003052",
+    "value": "(303) 500-3052",
     "ai": true,
     "instructions": "Company Phone Number"
   },
@@ -23,20 +23,8 @@
   "socials": {
     "value": [
       {
-        "name": "Google",
-        "href": "https://maps.google.com/maps?cid=1266397763599345558"
-      },
-      {
         "name": "Facebook",
         "href": "https://www.facebook.com/610242585671933/reviews"
-      },
-      {
-        "name": "Google",
-        "href": "https://maps.google.com/maps?cid=11863389633432546954"
-      },
-      {
-        "name": "Facebook",
-        "href": "https://www.facebook.com/helpingCOshine/"
       }
     ],
     "ai": true,
