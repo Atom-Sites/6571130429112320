@@ -19,7 +19,7 @@ import Header from '@/components/Header'
                 <div className="mx-auto max-w-2xl py-12 lg:py-24">
                     <div className="text-center">
                         <h1 className="text-3xl font-extrabold tracking-tight text-neutral-800 md:text-4xl lg:text-6xl">Our Customer Stories</h1>
-                        <p className="mt-6 text-lg leading-8 text-neutral-800">Your community is talking about us. Experience why residents in and around (the city) are raving about us. We provide top-notch (services) services that will exceed your expectations.</p>
+                        <p className="mt-6 text-lg leading-8 text-neutral-800">Your community is talking about us. Experience why residents in and around Denver Metro are raving about us. We provide top-notch cleaning services that will exceed your expectations.</p>
                     </div>
                 </div>
             </div>

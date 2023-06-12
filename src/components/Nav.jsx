@@ -44,16 +44,16 @@ export default function Example() {
                 {/*This is the logo on mobile*/}
                 <div className="flex lg:hidden">
                     <a href="/" className=" p-1.5">
-                        <span className="sr-only">Your Company</span>
-                        <img className="h-12 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
+                        <span className="sr-only">Expert Window Cleaning</span>
+                        <img className="h-12 w-auto" src={logoUrl} alt="Expert Window Cleaning" />
                     </a>
                 </div>
 
                 {/*This is the logo on desktop*/}
                 <div className="hidden lg:flex ">
                     <a href="/" className=" p-1.5">
-                        <span className="sr-only">Your Company</span>
-                        <img className="h-20 w-auto" src={logoUrl} alt="Put the Company Name as alt te" />
+                        <span className="sr-only">Expert Window Cleaning</span>
+                        <img className=" h-20 w-auto" src={logoUrl} alt="Expert Window Cleaning" />
                     </a>
                 </div>
 
