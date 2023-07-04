@@ -1,132 +1,119 @@
 {
-    "services": {
-        "value": [
-            {
-                "serviceName": "service1",
-                "serviceAnchor": "service-1",
-                "serviceSlug": "header",
-                "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "imageUrl": "/images/placeholder.svg",
-                "imageAlt": "image Alt Text",
-                "ctaText": "lorem ipsum",
-                "features": [
-                    {
-                        "name": "service 1 feature 1 name",
-                        "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-                    },
-                    {
-                        "name": "service 1 feature 2 name",
-                        "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-                    },
-                    {
-                        "name": "service 1 feature 3 name",
-                        "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
-                    }
-                ]
-            },
-            {
-                "serviceName": "service2",
-                "serviceAnchor": "service-2",
-                "serviceSlug": "header",
-                "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "imageUrl": "/images/placeholder.svg",
-                "imageAlt": "image Alt Text",
-                "ctaText": "lorem ipsum",
-                "features": [
-                    {
-                        "name": "service 2 feature 1 name",
-                        "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-
-                    },
-                    {
-                        "name": "service 2 feature 2 name",
-                        "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-                    },
-                    {
-                        "name": "service 2 feature 3 name",
-                        "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
-                    }
-                ]
-            },
-            {
-                "serviceName": "service3",
-                "serviceAnchor": "service-3",
-                "serviceSlug": "header",
-                "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "imageUrl": "/images/placeholder.svg",
-                "imageAlt": "image Alt Text",
-                "ctaText": "lorem ipsum",
-                "features": [
-                    {
-                        "name": "service 3 feature 1 name",
-                        "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-                    },
-                    {
-                        "name": "service 3 feature 2 name",
-                        "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-                    },
-                    {
-                        "name": "service 3 feature 3 name",
-                        "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
-                    }
-                ]
-            },
-            {
-                "serviceName": "service4",
-                "serviceAnchor": "service-4",
-                "serviceSlug": "header",
-                "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "imageUrl": "/images/placeholder.svg",
-                "imageAlt": "image Alt Text",
-                "ctaText": "lorem ipsum",
-                "features": [
-                    {
-                        "name": "service 4 feature 1 name",
-                        "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
-                    },
-                    {
-                        "name": "service 4 feature 2 name",
-                        "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
-                    },
-                    {
-                        "name": "service 4 feature 3 name",
-                        "description": "ac tincidunt sapien vehicula erat auctor pellentes"
-                    }
-                ]
-            }
-        ],
-        "description": "Details for the services section of the website.",
-        "AI": true,
-        "instructions": "Write up all the offered services (both primary and secondary) in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
-        "example": [
-            {
-                "serviceName": "Name of the service",
-                "serviceAnchor": "name-of-the-service-in-lowercase-with-dashes",
-                "serviceSlug": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of our service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice. \n Example to follow: \n Sparkle up your property! \n Refresh your view with our experts! \n Experience financial freedom with our accounting services! \n Give your property instant curb appeal! \n Breathe new life into your carpet! \n Unlock your home’s full potential! \n Reveal your roof’s true beauty!",
-                "serviceText": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing paragraph to promote the service. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
-                "imageUrl": "A url to an image that represents the service.",
-                "imageAlt": "Alt text for the image.",
-                "ctaText": "Write a small call-to-action text related to the service for the button. Use 3-4 words max. \n Example to follow:\n Clean up my yard! \n Maximize my savings \n Make my windows shine! \n Free my space!",
-                "features": [
-                    {
-                        "name": "A 1st specific feature of the service",
-                        "description": "A 1 paragraph description of the service"
-                    },
-                    {
-                        "name": "A 2nd specific feature of the service",
-                        "description": "A 1 paragraph description of the service."
-                    },
-                    {
-                        "name": "A 3rd specific feature of the service",
-                        "description": "A 1 paragraph description of the service."
-                    }
-                ]
-            }
+  "services": {
+    "value": [
+      {
+        "serviceBlurb": "Home Window Cleaning",
+        "serviceSlug": "Transform your space with pristine windows!",
+        "serviceText": "Are you tired of staring through dirty, grimy windows? Imagine stepping into a space flooded with natural light, where every view is crystal clear and unobstructed. With our exceptional home window cleaning services, you can experience the joy of pristine windows that enhance the beauty of your home. Say goodbye to smudges, fingerprints, and streaks, and say hello to a brighter, more inviting atmosphere.",
+        "imageUrl": "/images/window-cleaner.webp",
+        "imageAlt": "Professional residential window cleaning for a reasonable price.",
+        "features": [
+          {
+            "name": "Purified Water Cleaning Technology",
+            "description": "We use purified water cleaning technology to ensure a spotless and residue-free finish on your windows."
+          },
+          {
+            "name": "High-Quality Soaps",
+            "description": "Our specially designed soaps for window cleaning leave no film behind, ensuring a crystal-clear view."
+          },
+          {
+            "name": "Professional Tools",
+            "description": "Our team uses professional-grade tools that cannot be found at home improvement stores, ensuring the best results for your windows."
+          }
         ]
-    },
-    "anchor": {
-        "value": "services",
-        "description": "The anchor for the services section of the website.",
-        "AI": false
-    }
+      },
+      {
+        "serviceBlurb": "Commercial Window Cleaning",
+        "serviceSlug": "Boost your business's curb appeal with commercial window cleaning.",
+        "serviceText": "Make a powerful first impression with a business that shines from the inside out. Our exceptional commercial window cleaning services are designed to boost your business's curb appeal and leave a lasting impact on your customers. Don't let dirty windows hold you back, elevate your business to new heights with our commercial window cleaning services today.",
+        "imageUrl": "/images/commercial-window-cleaning.webp",
+        "imageAlt": "Commercial window cleaner fully insured, servicing the entire metro Area.",
+        "features": [
+          {
+            "name": "Flexible Scheduling",
+            "description": "We offer flexible scheduling options to minimize disruption to your business operations during the cleaning process."
+          },
+          {
+            "name": "Safety First",
+            "description": "Our team follows strict safety guidelines and uses proper equipment to ensure the safety of our employees and your property."
+          },
+          {
+            "name": "Customized Solutions",
+            "description": "We tailor our commercial window cleaning services to meet the unique needs of your business, ensuring the best results."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Gutter Cleaning",
+        "serviceSlug": "Protect your property with our thorough gutter cleaning services.",
+        "serviceText": "Clogged gutters can lead to water damage and other costly issues for your property. We offer comprehensive gutter cleaning services to ensure your gutters are free of debris and functioning properly. Our team will thoroughly clean and inspect your gutters, helping you protect your property from potential damage.",
+        "imageUrl": "/images/gutter-cleaning.webp",
+        "imageAlt": "Dirt removal on gutters in Denver, CO",
+        "features": [
+          {
+            "name": "Debris Removal",
+            "description": "Our team will remove leaves, twigs, and other debris from your gutters, ensuring proper water flow and preventing clogs."
+          },
+          {
+            "name": "Gutter Inspection",
+            "description": "We will inspect your gutters for any signs of damage or wear, helping you address potential issues before they become costly problems."
+          },
+          {
+            "name": "Preventative Maintenance",
+            "description": "Regular gutter cleaning is essential for maintaining the health of your property and preventing water damage."
+          }
+        ]
+      },
+      {
+        "serviceBlurb": "Chandelier Cleaning",
+        "serviceSlug": "Illuminate your space with our expert chandelier cleaning services.",
+        "serviceText": "A clean, sparkling chandelier can make a stunning statement in your home or business. We can help restore your chandelier's brilliance and enhance your space's beauty. Trust our team to handle your delicate chandelier with care and expertise.",
+        "imageUrl": " /images/chandelier-cleaning.webp",
+        "imageAlt": "Chandelier cleaning service",
+        "features": [
+          {
+            "name": "Delicate Handling",
+            "description": "Our team is trained to handle delicate chandeliers with care, ensuring the safety of your valuable fixture."
+          },
+          {
+            "name": "Thorough Cleaning",
+            "description": "We meticulously clean each crystal and component of your chandelier, restoring its original sparkle and shine."
+          },
+          {
+            "name": "Expert Techniques",
+            "description": "Our team uses specialized techniques and equipment to ensure the best results for your chandelier cleaning."
+          }
+        ]
+      }
+    ],
+    "ai": true,
+    "instructions": "Write up to four services in a way that mimics the example schema. Act as a marketing strategist when deciding on content. Use persuasive and targeted language for potential customers to pique their interest.",
+    "example": [
+      {
+        "serviceBlurb": "Name of the service",
+        "serviceSlug": "Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice.\n Example to follow:\n Sparkle up your property!\n Refresh your view with our experts!\n Experience financial freedom with our accounting services!",
+        "serviceText": "Write an attention-grabbing paragraph to promote the services. Use persuasive and targeted language for potential customers. Highlight the positive effects for them. Do not use the same keyword twice.",
+        "imageUrl": "A url to an image that represents the service a 1:1 aspect ratio",
+        "imageAlt": "Alt text for the image. can be left blank",
+        "features": [
+          {
+            "name": "A 1st specific feature of the service",
+            "description": "A 1 paragraph description of the service"
+          },
+          {
+            "name": "A 2nd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          },
+          {
+            "name": "A 3rd specific feature of the service",
+            "description": "A 1 paragraph description of the service."
+          }
+        ]
+      }
+    ]
+  },
+  "anchor": {
+    "value": "services",
+    "ai": false
+  }
 }

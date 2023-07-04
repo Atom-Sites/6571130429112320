@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx}', './app/**/*.{js,jsx}'],
+  content: ['./src/**/*.{js,jsx}'],
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -15,44 +15,27 @@ module.exports = {
       '3xl': ['2rem', { lineHeight: '2.5rem' }],
       '4xl': ['2.5rem', { lineHeight: '3rem' }],
       '5xl': ['3rem', { lineHeight: '3.5rem' }],
-      '6xl': ['3.75rem', { lineHeight: '1.1' }],
+      '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1.1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     colors: {
       primary: {
-        50: "var(--primary-50)",
-        100: "var(--primary-100)",
-        200: "var(--primary-200)",
-        300: "var(--primary-300)",
-        400: "var(--primary-400)",
-        500: "var(--primary-500)",
-        600: "var(--primary-600)",
-        700: "var(--primary-700)",
-        800: "var(--primary-800)",
-        900: "var(--primary-900)",
-        950: "var(--primary-950)",
-      },
-      secondary: {
-        50: "var(--secondary-50)",
-        100: "var(--secondary-100)",
-        200: "var(--secondary-200)",
-        300: "var(--secondary-300)",
-        400: "var(--secondary-400)",
-        500: "var(--secondary-500)",
-        600: "var(--secondary-600)",
-        700: "var(--secondary-700)",
-        800: "var(--secondary-800)",
-        900: "var(--secondary-900)",
-        950: "var(--secondary-950)",
-      },
+50: '#FFFFFF',
+100: '#d0e5fc',
+200: '#a8d0fc',
+300: '#89bffb',
+400: '#64aeff',
+500: '#50a3fd',
+600: '#2f92ff',
+700: '#0079ff',
+800: '#005cc1',
+900: '#004898',
+950: '#012955'},
       ...colors
     },
     extend: {
-      objectPosition: {
-        bottom20: 'bottom 20%',
-      },
       borderRadius: {
         '4xl': '2rem',
       },
@@ -68,18 +51,10 @@ module.exports = {
       },
     },
   },
-  variants: {
-    extend: {
-      visibility: ["group-hover"],
-    },
-  },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),
     require('tailwindcss-animated'),
-  ],
-  safelist: [
-    'ml-8',
-    'ml-12',
-  ]
-}
+]
+
+  }

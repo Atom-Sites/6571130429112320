@@ -6,11 +6,6 @@
   min-height: 100%;
 }
 
-html {
-  --scroll-behavior: smooth!important;
-  scroll-behavior: smooth!important;
-  }
-
 /* button gradient animation */
 @keyframes gradientAnimation {
   0% {
@@ -24,13 +19,6 @@ html {
   }
 }
 
-/* before and after */
-.slider-nofocus:focus {
-  outline: none;
-}
-.slider-split-line {
-  --divider-width: 8px;
-}
 
 
 /* <!-- CUSTOM CHANGES ON NICEJOB LEAD FORM --> */

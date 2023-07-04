@@ -1,9 +1,1 @@
-{
-    "company_name": "HUTCHISON MAINTENANCE", 
-    "industries": ["gcid:carpet_cleaning_service", "gcid:commercial_cleaning_service", "gcid:house_cleaning_service", "gcid:window_cleaning_service"], 
-    "phone": "+17055617260", 
-    "slug": "hutchison-maintenance", 
-    "website": "http://hutchisonmaintenance.ca", 
-    "email": "brandi@hutchisonmaintenance.ca", 
-    "company_id": "4782319835545600"
-}
+{"company_name": "Expert Window Cleaning, Inc.", "industries": ["gcid:pressure_washing_service", "gcid:window_cleaning_service"], "phone": "+13035003052", "slug": "expert-window-cleaning-inc", "website": "http://helpingcoloradoshine.com", "email": "asharperview@gmail.com", "company_id": "6571130429112320"}

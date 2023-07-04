@@ -1,9 +1,0 @@
-{
-    "page_name": "work",
-    "components": [
-        {
-            "slug": "workpage",
-            "component_key": "WorkPage"
-        }
-    ]
-}

@@ -1,52 +1,35 @@
 {
-    "headerSnippet": {
-        "value": "Reviews Snippet",
-        "AI": true,
-        "instructions": "Use a literal small portion of the testimonial. Only use 2-3 keywords highlighting the company’s qualities or the great experience. \n Example: From the review, \\“Great company to work with. Booking appointment was easy and professional.\\” the title would be \\“Easy and Professional.\\”  \n From the review, \\“Melvin did a fantastic job. He was professional, respectful of the property, and left everything looking great.\\” the title would be “Fantastic Job.\\” \n From the review, \\“Everything from the first e-mail was top notch! I will certainly hire them again!!! Melvin was so kind and helpful!\\” the title would be \\“Top-Notch Services.\\”"
-    },
-    "testimonials": {
-        "value": [
-            {
-                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
-                "author": {
-                    "name": "Leslie Alexander",
-                    "source": "google",
-                    "icon": "/images/google-badge.svg"
-                }
-            },
-            {
-                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
-                "author": {
-                    "name": "John Doe",
-                    "source": "nicejob",
-                    "icon": "/images/nicejob-badge.svg"
-                }
-            },
-            {
-                "body": "Another testimonial goes here.",
-                "author": {
-                    "name": "John Doe",
-                    "source": "facebook",
-                    "icon": "/images/facebook-badge.svg"
-                }
-            }
-        ],
-        "AI": true,
-        "instructions":  "Use available information to create 1 testimonial in the testimonials array. Use one recent testimonial, no more than 6 months old if possible. Use the provided icon for all authors. Do not use any Yelp reviews.",
-        "example":[
-            {
-                "body": "The body for the testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
-                "author": {
-                    "name": "Name of the person.",
-                    "source": "Source of the review. For example, Google, Facebook, Nicejob, etc.",
-                    "icon": "/images/google-badge.svg"
-                }
-            }
-        ]
-    },
-    "anchor": {
-        "value": "reviews",
-        "AI": false
-    }
+  "headerSnippet": {
+    "value": "Great experience!",
+    "ai": true,
+    "instructions": "Take a small snippet from the review."
+  },
+  "review": {
+    "value": [
+      {
+        "body": "Great experience! Received quotes from several places and this was the most reasonable and was able to come out the soonest. Will did a fantastic job and we will be calling him again next time we need our windows cleaned.",
+        "author": {
+          "name": "Beau Solano",
+          "source": "Google",
+          "icon": "/images/google-badge.svg"
+        }
+      }
+    ],
+    "ai": true,
+    "instructions": "Use available information to create 1 testimonial in the testimonials array. Use the provided icon for all authors",
+    "example": [
+      {
+        "body": "The body for the testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
+        "author": {
+          "name": "Name of the first person",
+          "source": "Source of the review. For example, Google, Facebook, etc.",
+          "icon": "/images/google-badge.svg"
+        }
+      }
+    ]
+  },
+  "anchor": {
+    "value": "reviews",
+    "ai": false
+  }
 }
-

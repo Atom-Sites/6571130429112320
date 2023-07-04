@@ -1,9 +1,0 @@
-{
-    "page_name": "reviews",
-    "components": [
-        {
-            "slug": "reviewpage",
-            "component_key": "ReviewPage"
-        }
-    ]
-}
