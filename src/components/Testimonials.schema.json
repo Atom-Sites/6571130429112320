@@ -1,80 +1,60 @@
 {
-  "headerText": {
-    "value": "Testimonials",
-    "ai": true,
-    "instructions": "Either Testimonials or Reviews"
-  },
-  "headerSubText": {
-    "value": "Read what our satisfied customers have to say about Expert Window Cleaning, Inc.",
-    "ai": true,
-    "instructions": "A short description of the section goes here. Should talk about what people are saying about the company."
-  },
-  "testimonials": {
-    "value": [
-      {
-        "body": "Will did an amazing job! On time and very professional. I highly recommend him!",
-        "author": {
-          "name": "Tracy Evans",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Expert Window Cleaning always do an amazing job! Very satisfied - Thank you!",
-        "author": {
-          "name": "Sarina Brant",
-          "source": "NiceJob",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will is on time, efficient, polite and does a great job.  He's been coming to our home for the last 5 years.",
-        "author": {
-          "name": "Lolabeth Uhlenhop",
-          "source": "Facebook",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "I will continue to recommend you to people as we are very pleased with your work!!!!",
-        "author": {
-          "name": "Marti S",
-          "source": "NiceJob",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will did a great job.  I would definitely recommend Expert Window Cleaning.",
-        "author": {
-          "name": "Barbara Secord",
-          "source": "Facebook",
-          "icon": "/images/google-badge.svg"
-        }
-      },
-      {
-        "body": "Will is great to work with. We will use him again.",
-        "author": {
-          "name": "Monte Crabbs",
-          "source": "Google",
-          "icon": "/images/google-badge.svg"
-        }
-      }
-    ],
-    "ai": true,
-    "instructions": "Use available information to create 2-6 testimonials in the testimonials array. Use the provided icon for all authors",
-    "example": [
-      {
-        "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
-        "author": {
-          "name": "Name of the first person",
-          "source": "Source of the review. For example, Google, Facebook, etc.",
-          "icon": "/images/google-badge.svg"
-        }
-      }
-    ]
-  },
-  "anchor": {
-    "value": "reviews",
-    "ai": false
-  }
+    "headerText": {
+        "value": "REVIEWS",
+        "description": "The header text for the section",
+        "AI": false
+    },
+    "headerSubText": {
+        "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
+        "description": "The sub header text for the section",
+        "AI": true,
+        "instructions": "A short description of the section goes here. Should talk about what people are saying about the company."
+    },
+    "testimonials": {
+        "value": [
+            {
+                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "author": {
+                    "name": "Leslie Alexander",
+                    "source": "google",
+                    "icon": "/images/google-badge.svg"
+                }
+            },
+            {
+                "body": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "author": {
+                    "name": "John Doe",
+                    "source": "nicejob",
+                    "icon": "/images/nicejob-badge.svg"
+                }
+            },
+            {
+                "body": "Another testimonial goes here.",
+                "author": {
+                    "name": "John Doe",
+                    "source": "facebook",
+                    "icon": "/images/facebook-badge.svg"
+                }
+            }
+        ],
+        "description": "A list of testimonials and their associated authors",
+        "AI": true,
+        "instructions":  "Use available information to create 3 or 6 testimonials in the testimonials array. Use the provided icon for all authors. Do not use Yelp reviews.",
+        "example":[
+            {
+                "body": "The body for the first testimonial goes here. It should be a short paragraph about what the person is saying about the company.",
+                "author": {
+                    "name": "Name of the first person",
+                    "source": "Source of the review. For example, Google, Facebook, etc.",
+                    "icon": "/images/google-badge.svg"
+                }
+            }
+        ]
+    },
+    "anchor": {
+        "value": "reviews",
+        "description": "The anchor for the reviews section",
+        "AI": false
+    }
 }
+

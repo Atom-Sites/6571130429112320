@@ -1,0 +1,43 @@
+{
+  "footerText": "We gladly service Aurora, CO and surrounding areas including Arvada, CO, Castle Pines, CO, Castle Rock, CO, Centennial, CO, Cherry Hills Village, CO, Denver, CO, Englewood, CO, Evergreen, CO, Foxfield, CO, Franktown, CO, Genesee, CO, Golden, CO, Greenwood Village, CO, Heritage Hills, CO, Highlands, CO, Highlands Ranch, CO, Lakewood, CO, Littleton, CO, Lone Tree, CO, Morrison, CO, Parker, CO, Sedalia, CO, Stapleton, CO, The Pinery, CO, Wheat Ridge, CO.",
+  "address": "13118 Jersey St, Thornton, CO, US, 80602",
+  "phone": "+13035003052",
+  "email": "asharperview@gmail.com",
+  "socials": [
+    {
+      "name": "Google",
+      "href": "https://maps.google.com/maps?cid=1266397763599345558"
+    },
+    {
+      "name": "Facebook",
+      "href": "https://www.facebook.com/610242585671933/reviews"
+    },
+    {
+      "name": "Google",
+      "href": "https://maps.google.com/maps?cid=11863389633432546954"
+    },
+    {
+      "name": "Facebook",
+      "href": "https://www.facebook.com/helpingCOshine/"
+    }
+  ],
+  "services": [
+    {
+      "name": "Home Window Cleaning",
+      "anchor": "home-window-cleaning"
+    },
+    {
+      "name": "Commercial Window Cleaning",
+      "anchor": "commercial-window-cleaning"
+    },
+    {
+      "name": "Gutter Cleaning",
+      "anchor": "gutter-cleaning"
+    },
+    {
+      "name": "Chandelier Cleaning",
+      "anchor": "chandelier-cleaning"
+    }
+  ],
+  "anchor": "contact"
+}

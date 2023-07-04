@@ -1,0 +1,21 @@
+{
+    "page_name": "about",
+    "components": [
+        {
+            "slug": "secondarypagehero",
+            "component_key": "SecondaryPageHero"
+        },
+        {
+            "slug": "aboutfeature",
+            "component_key": "AboutFeature"
+        },
+        {
+            "slug": "team",
+            "component_key": "Team"
+        },
+        {
+            "slug": "recommend",
+            "component_key": "Recommend"
+        }
+    ]
+}

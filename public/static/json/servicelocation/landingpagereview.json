@@ -1,0 +1,15 @@
+{
+  "headerSnippet": "Amazing Job, Highly Professional",
+  "testimonials": [
+    {
+      "content": "Will did an amazing job! On time and very professional. I highly recommend him!",
+      "rating": 5,
+      "first_name": "Tracy",
+      "last_name": "Evans",
+      "network": "google",
+      "icon": "[ IMAGE: Tracy Evans ]",
+      "date": "2022-03-01"
+    }
+  ],
+  "anchor": "reviews"
+}

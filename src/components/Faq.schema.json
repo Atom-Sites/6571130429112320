@@ -1,0 +1,34 @@
+{
+    "faqs": {
+        "value": [
+            {
+                "question": "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam. Voluptas numquam delectus nihil.",
+                "answer": "Answer"
+            }
+        ],
+    "header" : {
+        "value": "How can we help?",
+        "description": "Main page header.",
+            "AI": false
+        },
+    "intro" : {
+        "value": "Got questions? We are here to provide you with all the information you need to make informed decisions. Contact our friendly team for personalized assistance if you don't see what you need.",
+        "description": "Small intro paragraph.",
+        "AI": true
+        },
+    "AI": true,
+        "instructions":  "List 5-10 of the most common questions on the web about our services.",
+        "example":[
+            {
+                "intro": "Write a small intro paragraph for the FAQ page. \n Example to follow:\n Got questions? We are here to provide you with all the information you need to make informed decisions. Contact our friendly team for personalized assistance if you don't see what you need.",
+                "question": "Write the question.",
+                "answer": "Write the most precise answer available."
+
+            }
+        ]
+    },
+    "anchor": {
+        "value": "faq",
+        "AI": false
+    }
+}

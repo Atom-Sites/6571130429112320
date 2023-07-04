@@ -1,51 +1,91 @@
 {
-  "footerText": {
-    "value": "We gladly service Aurora, Arvada, Castle Pines, Castle Rock, Centennial, Cherry Hills Village, Denver, Englewood, Evergreen, Foxfield, Franktown, Genesee, Golden, Greenwood Village, Heritage Hills, Highlands, Highlands Ranch, Lakewood, Littleton, Lone Tree, Morrison, Parker, Sedalia, Stapleton, The Pinery, and Wheat Ridge.",
-    "ai": true,
-    "instructions": "Text for the footer. Extrapolate from the example",
-    "example": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat."
-  },
-  "address": {
-    "value": "Aurora, CO",
-    "ai": true,
-    "instructions": "Company Address"
-  },
-  "phone": {
-    "value": "(303) 500-3052",
-    "ai": true,
-    "instructions": "Company Phone Number"
-  },
-  "email": {
-    "value": "asharperview@gmail.com",
-    "ai": true,
-    "instructions": "Company E-Mail Address"
-  },
-  "socials": {
-    "value": [
-      {
-        "name": "Facebook",
-        "href": "https://www.facebook.com/610242585671933/reviews"
-      }
-    ],
-    "ai": true,
-    "instructions": "Create socials if they exist. Use the format provided in the example.",
-    "example": [
-      {
-        "name": "Facebook",
-        "href": "#"
-      },
-      {
-        "name": "Twitter",
-        "href": "#"
-      },
-      {
-        "name": "Instagram",
-        "href": "#"
-      }
-    ]
-  },
-  "anchor": {
-    "value": "contact",
-    "ai": false
-  }
+    "footerText": {
+        "value": "We gladly service lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "description": "Text in the footer component.",
+        "AI": true,
+        "instructions": "Text for the footer. Replace dummy text with the locations.",
+        "example": "We gladly service Asheville, NC and surrounding areas including Weaverville, NC, Hendersonville, NC, and Flat Rock, NC."
+    },
+    "address" : {
+        "value": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA",
+        "description": "Company Address",
+        "AI": true,
+        "instructions": "Company Address"
+    },
+    "phone" : {
+        "value": "(650) 253-0000",
+        "description": "Company Phone Number",
+        "AI": true,
+        "instructions": "Company Phone Number displayed in this format (000) 000-0000"
+    },
+    "email" : {
+        "value": "test@example.com",
+        "description": "Company E-Mail Address",
+        "AI": true,
+        "instructions": "Company E-Mail Address"
+    },
+    "socials": {
+        "value": [
+            {"name": "Facebook", "href": "#"},
+            {"name": "Twitter", "href": "#"},
+            {"name": "Instagram", "href": "#"},
+            {"name": "Yelp", "href": "#"},
+            {"name": "Youtube", "href": "#"},
+            {"name": "Houzz", "href": "#"}
+        ],
+        "description": "Social Media Links",
+        "AI": true,
+        "instructions": "Create socials if they exist. Use the format provided in the example.",
+        "example": [
+            {"name": "Facebook", "href": "#"},
+            {"name": "Twitter", "href": "#"},
+            {"name": "Instagram", "href": "#"},
+            {"name": "Yelp", "href": "#"},
+            {"name": "Youtube", "href": "#"},
+            {"name": "Houzz", "href": "#"}
+        ]
+    },
+    "services": {
+        "value": [
+            {
+                "name": "Service 1",
+                "anchor": "service-1"
+            },
+            {
+                "name": "Service 2",
+                "anchor": "service-2"
+            },
+            {
+                "name": "Service 3",
+                "anchor": "service-3"
+            },
+            {
+                "name": "Service 4",
+                "anchor": "service-4"
+            }
+        ],
+        "description": "A list of services with their header and links",
+        "AI": true,
+        "instructions": "Create services if they exist. Use existing services, do not make up new ones. Use the format provided in the example.",
+        "example": [
+            {
+                "name": "Service 1",
+                "anchor": "service-1"
+            },
+            {
+                "name": "Service 2",
+                "anchor": "service-2"
+            },
+            {
+                "name": "Service 3",
+                "anchor": "service-3"
+            }
+        ]
+    },
+    "anchor": {
+        "value": "contact",
+        "description": "Anchor for the footer",
+        "AI": false
+    }
 }
+

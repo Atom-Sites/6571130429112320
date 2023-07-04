@@ -1,0 +1,28 @@
+{
+  "headerText": "Meet our team of experts.",
+  "headerSubText": "At Expert Window Cleaning, Inc., our team is our strength. Comprised of dedicated professionals, each member brings unique skills and expertise, ensuring top-notch service and customer satisfaction.",
+  "people": [
+    {
+      "person": {
+        "name": "Gabriellevandermeer",
+        "imageURL": "[ IMAGE: Employee Gabriellevandermeer portrait ]",
+        "role": "Team Member"
+      }
+    },
+    {
+      "person": {
+        "name": "Joe DeJulio",
+        "imageURL": "[ IMAGE: Employee Joe DeJulio portrait ]",
+        "role": "Team Member"
+      }
+    },
+    {
+      "person": {
+        "name": "Will van der Meer",
+        "imageURL": "[ IMAGE: Employee Will van der Meer portrait ]",
+        "role": "Owner-Operator"
+      }
+    }
+  ],
+  "anchor": "team"
+}

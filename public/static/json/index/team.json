@@ -1,0 +1,15 @@
+
+{
+    "headerText": "Meet our team of experts.",
+    "headerSubText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?",
+    "people": [
+            {
+                "person": {
+                    "name": "John Alexander",
+                    "imageURL": "images/placeholder.svg",
+                    "role": "Owner-Operator"
+                }
+            }
+        ],
+    "anchor": "team"
+}

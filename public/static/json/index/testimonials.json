@@ -1,0 +1,31 @@
+{
+  "headerText": "REVIEWS",
+  "headerSubText": "Here's what our customers are saying about Expert Window Cleaning, Inc.",
+  "testimonials": [
+    {
+      "body": "Will did an amazing job! On time and very professional. I highly recommend him!",
+      "author": {
+        "name": "Tracy Evans",
+        "source": "Google",
+        "icon": "/images/google-badge.svg"
+      }
+    },
+    {
+      "body": "Expert Window Cleaning always do an amazing job! Very satisfied - Thank you!",
+      "author": {
+        "name": "Sarina Brant",
+        "source": "NiceJob",
+        "icon": "/images/google-badge.svg"
+      }
+    },
+    {
+      "body": "Alex and his team have been cleaning our windows for 3 years. Their work ethic, professionalism and attention to detail is consistently wonderful. They take great pride in their work and are not satisfied until you are. A real pleasure to work with, I can unequivocably recommend this great company.",
+      "author": {
+        "name": "Dana Meacham",
+        "source": "Google",
+        "icon": "/images/google-badge.svg"
+      }
+    }
+  ],
+  "anchor": "reviews"
+}

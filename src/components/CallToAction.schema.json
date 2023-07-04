@@ -1,26 +1,39 @@
 {
-  "title": {
-    "value": "Rain Guarantee",
-    "ai": true,
-    "instructions": "Act as a marketing strategist. Write an attention-grabbing header to promote the benefit of the service. Use persuasive and targeted language for potential customers to pique their interest. The header should be limited to 60 characters and highlight the positive effects on their homes or businesses. Write in a sentence-case format with no colon or vertical bar. Do not use the same keyword twice."
+  "header": {
+    "value": "Quisquam, quod?",
+    "description": "The title of the call to action page",
+    "AI": true,
+    "instructions": "Act as a marketing strategist. Write an attention-grabbing header for call to action section. No more than 6 words. Use the interrogative. Use persuasive language for the last opportunity to pique customer interest. Don't use quotations. Start with Get, Want or Ready.\n Examples to follow:\n Ready to get started?\nGet your new kitchen today! \n Looking for the best window cleaner in Montreal?\n Want Impeccably Clean Carpets?\n Ready to Transform Your Landscape Today?"
   },
   "callToAction": {
-    "value": "Our deluxe window cleaning package protects you for up to 2 days following your service, and our premium window cleaning package protects you for up to 5 days! If it rains in the days following your window cleaning service, and you call in that time period, we will return and touch up your affected windows for free!",
-    "ai": true,
+    "value": "We are here to help you with any questions you may have.",
+    "description": "The call to action of the call to action page",
+    "AI": true,
     "instructions": "Act as a marketing strategist focused on lead generation. Write an attention-grabbing very short paragraph to promote the services. Do not use the same keyword twice."
   },
   "image": {
-    "value": "/images/house-window-cleaning.webp",
-    "ai": true,
-    "instructions": "An image url to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+    "description": "The image of the call to action page",
+    "value": "/images/home-office-cleaning-hero.jpg",
+    "AI": true,
+    "instructions": "An image URL to a picture that will be displayed on the call to action page with a 5:4 aspect ratio"
+  },
+  "imageAlt": {
+    "description": "The image alt text.",
+    "value": "Lorem ipsum dolor set.",
+    "AI": true,
+    "instructions": "Describe the image for the alt text."
   },
   "buttonText": {
-    "value": "Book your cleaning today!",
-    "ai": true,
+    "value": "Visit the help center",
+    "description": "The text of the button of the call to action page",
+    "AI": true,
     "instructions": "A short call to action that will be displayed on the button."
   },
   "anchor": {
     "value": "our-work",
-    "ai": false
+    "description": "The anchor of the call to action page",
+    "AI": false
   }
 }
+
+

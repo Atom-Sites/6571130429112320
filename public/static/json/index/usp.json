@@ -1,0 +1,21 @@
+{
+  "headerText": "Unleash the beauty of your views with Expert Window Cleaning, Inc.!",
+  "headerSubText": "At Expert Window Cleaning, Inc., we transform your windows to crystal clear perfection. Our advanced equipment and eco-friendly soaps ensure a spotless finish, while our dedicated team delivers exceptional service every step of the way.",
+  "features": [
+    {
+      "name": "Advanced Equipment",
+      "description": "Experience the difference of our advanced equipment, designed to deliver a spotless finish to your windows.",
+      "href": "#"
+    },
+    {
+      "name": "Eco-Friendly Solutions",
+      "description": "Our eco-friendly soaps ensure a clean that's not only effective, but also kind to the environment.",
+      "href": "#"
+    },
+    {
+      "name": "Exceptional Service",
+      "description": "From start to finish, our team is committed to providing you with outstanding service and communication.",
+      "href": "#"
+    }
+  ]
+}

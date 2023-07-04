@@ -1,7 +1,44 @@
 {
-  "logoUrl": {
-    "value": "https://media.nicejob.co/company_logos/162-expert-window-cleaning@2x.png",
-    "ai": true,
-    "instructions": "The Logo Image"
-  }
+    "logoUrl": {
+        "value": "/images/placeholder.svg",
+        "description": "The url of the logo image",
+        "AI": true,
+        "instructions": "The Logo Image"
+    },
+    "altText": {
+        "value": "The company name",
+        "description": "The company name",
+        "AI": true,
+        "instructions": "Put the company name"
+    },
+    "services": {
+        "value": [
+            {
+                "serviceName": "Name of the service",
+                "serviceAnchor": "service1"
+            },
+            {
+                "serviceName": "Name of the service",
+                "serviceAnchor": "service2"
+            },
+            {
+                "serviceName": "Name of the service",
+                "serviceAnchor": "service3"
+            },
+            {
+                "serviceName": "Name of the service",
+                "serviceAnchor": "service4"
+            }
+        ],
+        "description": "Details for the services section of the website.",
+        "AI": true,
+        "instructions": "Write up to six services in a way that mimics the example schema. Use existing services to inform your output. serviceAnchor should match existing anchors, if available.",
+        "example": [
+            {
+                "serviceName": "Name of the service",
+                "serviceAnchor": "service1"
+            }
+        ]
+    }
 }
+

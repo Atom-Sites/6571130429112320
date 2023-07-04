@@ -1,0 +1,99 @@
+
+{
+    "services": [
+        {
+            "serviceName": "service1",
+            "serviceAnchor": "service-1",
+            "serviceSlug": "header",
+            "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "imageUrl": "/images/placeholder.svg",
+            "imageAlt": "image Alt Text",
+            "ctaText": "Make my windows shine!",
+            "features": [
+                {
+                    "name": "service 1 feature 1 name",
+                    "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+                },
+                {
+                    "name": "service 1 feature 2 name",
+                    "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+                },
+                {
+                    "name": "service 1 feature 3 name",
+                    "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+                }
+            ]
+        },
+        {
+            "serviceName": "service2",
+            "serviceAnchor": "service-2",
+            "serviceSlug": "header",
+            "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "imageUrl": "/images/placeholder.svg",
+            "imageAlt": "image Alt Text",
+            "ctaText": "lorem ipsum",
+            "features": [
+                {
+                    "name": "service 2 feature 1 name",
+                    "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+
+                },
+                {
+                    "name": "service 2 feature 2 name",
+                    "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+                },
+                {
+                    "name": "service 2 feature 3 name",
+                    "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+                }
+            ]
+        },
+        {
+            "serviceName": "service3",
+            "serviceAnchor": "service-3",
+            "serviceSlug": "header",
+            "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "imageUrl": "/images/placeholder.svg",
+            "imageAlt": "image Alt Text",
+            "ctaText": "lorem ipsum",
+            "features": [
+                {
+                    "name": "service 3 feature 1 name",
+                    "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+                },
+                {
+                    "name": "service 3 feature 2 name",
+                    "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+                },
+                {
+                    "name": "service 3 feature 3 name",
+                    "description": "ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. et magna sit morbi lobortis."
+                }
+            ]
+        },
+        {
+            "serviceName": "service4",
+            "serviceAnchor": "service-4",
+            "serviceSlug": "header",
+            "serviceText": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "imageUrl": "/images/placeholder.svg",
+            "imageAlt": "image Alt Text",
+            "ctaText": "lorem ipsum",
+            "features": [
+                {
+                    "name": "service 4 feature 1 name",
+                    "description": "lorem ipsum, dolor sit amet consectetur adipisicing elit. maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+                },
+                {
+                    "name": "service 4 feature 2 name",
+                    "description": "anim aute id magna aliqua ad ad non deserunt sunt. qui irure qui lorem cupidatat commodo."
+                },
+                {
+                    "name": "service 4 feature 3 name",
+                    "description": "ac tincidunt sapien vehicula erat auctor pellentes"
+                }
+            ]
+        }
+    ],
+    "anchor": "services"
+}
